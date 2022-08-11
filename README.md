@@ -1,4 +1,4 @@
 # Seneca-WEB222-FINAL
-# Sooyeon Kim
-# 149385213
-# skim499@myseneca.ca
+-Name: Sooyeon Kim
+-ID: 149385213
+-Email: skim499@myseneca.ca
