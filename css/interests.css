@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  gap: 14px;
+}
+.container > main {
+  flex: 3;
+}
+.container > aside {
+  flex: 1;
+  padding: 0;
+}
+.content_text {
+  padding-inline: 18px;
+  margin-bottom: 12px;
+}
+.video {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.video > iframe {
+  width: 560px;
+  height: 315px;
+}
+table {
+  width: 100%;
+  margin-block: 20px;
+  border: 1px solid #777;
+  border-collapse: collapse;
+}
+thead {
+  font-weight: 600;
+  background-color: #ccc;
+}
+td {
+  padding: 3px;
+  border: 1px solid #777;
+}
+.table_list > li {
+  list-style: circle;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  .video > iframe {
+    width: 100%;
+  }
+}

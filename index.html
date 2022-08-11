@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script src="./js/home.js" defer></script>
+    <title>Sooyeon Kim WEB222 FINAL</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="headerBanner"
+        src="./img/header_banner.jpg"
+        alt="a cat with the moon"
+      />
+      <p>Sooyeon Kim WEB222 FINAL</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./interests.html">Interests</a></li>
+        <li><a href="./expertise.html">Expertise</a></li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <section id="declaration">
+        <p>
+          I declare that my assessment is wholly my own work in accordance with
+          Seneca Academic Policy. No part of this assessment has been copied
+          manually or electronically from any other source (including web sites)
+          except for the information supplied by the WEB222 instructors and / or
+          made available in this assessment for my use. I also declare that no
+          part of this assignment has been distributed to other students.
+        </p>
+        <p>
+          -Name: Sooyeon Kim<br />
+          -Student ID: 149385213<br />
+          -Dated: August 10, 2022
+        </p>
+      </section>
+      <h1>Home</h1>
+      <main>
+        <div class="container">
+          <h2 class="title">Welcome!</h2>
+          <p>Thank you for visiting my website.</p>
+          <p>
+            I am currently a student at Seneca College's CPP program. Until a
+            few years ago, I was studying economics in Korea, but I fell in love
+            with programming and embarked on this new journey. It's only been
+            half a year since I started programming, so there are still many
+            difficulties and frustrations every day, but if I endure this time,
+            I'm looking forward to seeing my growth.
+          </p>
+          <p>
+            In retrospect, what bothered me the most this semester was the web
+            class. Because I learned C language last semester, the OOP class was
+            easier than I thought. However, it was not easy to get used to
+            javascript, html, and css because it was the first thing I saw in my
+            life. I still faced a lot of problems while working on this project,
+            but it makes me happy to be able to create a simple web page
+            nonetheless.
+          </p>
+        </div>
+        <hr />
+        <div class="container">
+          <h2 class="title">Contact</h2>
+          <article>
+            <form
+              id="contactUs"
+              method="post"
+              action="https://httpbin.org/post"
+            >
+              <div class="input_container">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" maxlength="40" autofocus required />
+              </div>
+              <div class="input_container">
+                <label for="email">Email</label>
+                <input id="email" type="email" maxlength="40" required />
+              </div>
+              <div class="input_container">
+                <label for="phone">Phone</label>
+                <input id="phone" maxlength="40" />
+                <input type="button" value="check" class="phone-check-btn" />
+              </div>
+              <div class="input_container">
+                <label for="company">Company</label>
+                <input id="company" maxlength="40" />
+              </div>
+              <div class="input_container">
+                <label for="Occupation">Occupation</label>
+                <input id="Occupation" maxlength="40" />
+              </div>
+              <div class="input_container">
+                <label for="address">address</label>
+                <input id="address" />
+              </div>
+              <div class="input_container">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  maxlength="200"
+                  minlength="5"
+                  required
+                ></textarea>
+              </div>
+              <button class="submit-btn" disabled>submit</button>
+            </form>
+          </article>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footer_text__container">
+        <div class="footer_text">Sooyeon Kim</div>
+        <div class="footer_text">Contact : skim499@senecacollege.ca</div>
+      </div>
+    </footer>
+  </body>
+</html>
